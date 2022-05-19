@@ -38,7 +38,7 @@ const options = {
             refs.startBtn.classList.add("disabled");
         }
         Notiflix.Notify.warning("Please choose a date in the future");
-        //   alert("Please choose a date in the future");
+       
           return
       }
       refs.startBtn.classList.remove("disabled");

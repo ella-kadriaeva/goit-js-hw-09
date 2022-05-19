@@ -13,11 +13,51 @@ body {
 }
 
 img {
-  display: block;
+  display: flex;
   max-width: 100%;
+  
+  flex-direction: column;
+  align-items: center;
 }
 
 .disabled {
   color: #a8a5a5;
   border: solid 1px #c7c3c3;
 }
+button {
+  font-size: 26px;
+  color: #1913be;
+}
+.field {
+  
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  
+}
+.value {
+  font-size: 35px;
+  color: #1913be;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: center;
+}
+
+.label {
+  color: #1913be;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.timer {
+ margin: 30px;
+ display: flex;
+ 
+}
+input{
+  margin-left: 30px;
+  color: #1913be;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
