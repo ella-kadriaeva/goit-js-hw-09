@@ -16,3 +16,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.disabled {
+  color: #a8a5a5;
+  border: solid 1px #c7c3c3;
+}

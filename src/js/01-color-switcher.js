@@ -21,8 +21,7 @@ function onStartBtn() {
            }
            refs.startBtn.classList.add("disabled");
            timerId = setInterval(() => {
-                console.log('+')
-                refs.bodyColor.style.backgroundColor = getRandomHexColor();
+                 refs.bodyColor.style.backgroundColor = getRandomHexColor();
             }, 1000);
             return timerId;
         }
